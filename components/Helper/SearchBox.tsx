@@ -21,6 +21,14 @@ const SearchBox = () => {
             </div>
         </div>
 
+        <div className='flex items-center space-x-6'>
+            <FaCalendarWeek className='w-6 h-6 text-blue-600'/>
+            <div>
+                <p className='text-lg font-medium mb-[0.2rem]'>End Date</p>
+                <input type="date" className='outline-none border-none' />
+            </div>
+        </div>
+
     </div>
   )
 }
