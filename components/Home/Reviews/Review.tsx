@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaStar } from 'react-icons/fa';
 
 const Review = () => {
   return (
@@ -7,6 +8,19 @@ const Review = () => {
             <div>
                 <h1 className='text-2xl font-semibold text-white'>What our customers are saying us?</h1>
                 <p className='mt-6 text-gray-200'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut a unde distinctio deleniti cum dolore tempora magni. Facere ut totam minus incidunt culpa</p>
+                <div className='mt-6 flex items-center space-x-6'>
+                    <div>
+                        <p className='text-2xl font-bold text-white'>4.88</p>
+                        <p className='text-white mb-2'>Overall Rating</p>
+                        <div className='flex items-center'>
+                            <FaStar className='text-white' />
+                            <FaStar className='text-white' />
+                            <FaStar className='text-white' />
+                            <FaStar className='text-white' />
+                            <FaStar className='text-white' />
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
