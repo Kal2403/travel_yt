@@ -25,6 +25,16 @@ const ReviewSlider = () => {
                                 <FaStar className='md:w-6 md:h-6 w-3 h-3 text-yellow-600' />
                                 <FaStar className='md:w-6 md:h-6 w-3 h-3 text-yellow-600' />
                             </div>
+
+                            <div className='mt-10'>
+                                <div className='flex items-center space-x-4'>
+                                    <img src={data.image} alt="client" className='rounded-full' width={60} height={60} />
+                                    <div>
+                                        <p className='text-sm sm:text-lg font-semibold'>{data.name}</p>
+                                        <p className='text-gray-600 text-xs sm:text-base'>Web Developer</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </SwiperSlide>
                 ))
