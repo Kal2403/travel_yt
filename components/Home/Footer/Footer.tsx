@@ -28,6 +28,17 @@ const Footer = () => {
                 <p className='text-gray-800 font-medium cursor-pointer text-sm hover:text-blue-950'>Flight Finder</p>
                 <p className='text-gray-800 font-medium cursor-pointer text-sm hover:text-blue-950'>Travel Agents</p>
             </div>
+            <div>
+                <h1 className='text-lg font-bold'>Contact Us</h1>
+                <div className='mt-6'>
+                    <h1 className='text-sm text-gray-600'>Our Mobile Number</h1>
+                    <h1 className='text-base font-bold text-blue-950 mt-1'>+012 4565 5643</h1>
+                </div>
+                <div className='mt-6'>
+                    <h1 className='text-gray-500 text-base'>Our Email Address</h1>
+                    <h1 className='font-bold text-base text-blue-950 mt-1'>example@gmail.com</h1>
+                </div>
+            </div>
         </div>
     </div>
   )
