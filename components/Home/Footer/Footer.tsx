@@ -1,4 +1,6 @@
+import Link from 'next/link';
 import React from 'react';
+import { FaDribbble, FaFacebook, FaTwitter } from 'react-icons/fa';
 
 const Footer = () => {
   return (
@@ -38,6 +40,21 @@ const Footer = () => {
                     <h1 className='text-gray-500 text-base'>Our Email Address</h1>
                     <h1 className='font-bold text-base text-blue-950 mt-1'>example@gmail.com</h1>
                 </div>
+            </div>
+        </div>
+        <div className='mt-8 w-[80%] text-gray-600 border-t mx-auto pt-8 flex flex-col md:flex-row justify-between items-center text-sm'>
+            <p>Copyright © 2025 KalTech. All rights reserved</p>
+            <div className='flex items-center space-x-4 mt-4 md:mt-0'>
+                <span>Social:</span>
+                <Link href="#" className='text-gray-500 hover:text-gray-800'>
+                    <FaFacebook />
+                </Link>
+                <Link href="#" className='text-gray-500 hover:text-gray-800'>
+                    <FaTwitter />
+                </Link>
+                <Link href="#" className='text-gray-500 hover:text-gray-800'>
+                    <FaDribbble />
+                </Link>
             </div>
         </div>
     </div>
