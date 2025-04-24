@@ -1,10 +1,12 @@
-import React from 'react';
+"use client";
+import React, { useEffect } from 'react';
 import Hero from './Hero/Hero';
 import Destination from './Destination/Destination';
 import Hotel from './Hotel/Hotel';
 import WhyChoose from './WhyChoose/WhyChoose';
 import Review from './Reviews/Review';
 import News from './News/News';
+import Newsletter from '../Newsletter/Newsletter';
 
 const Home = () => {
     return (
@@ -15,6 +17,7 @@ const Home = () => {
             <WhyChoose />
             <Review />
             <News />
+            <Newsletter />
         </div>
     )
 }
