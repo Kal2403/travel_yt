@@ -17,6 +17,13 @@ const ScrollToTop = () => {
         return () => window.removeEventListener("scroll", toggleVisibility);
     }, []);
 
+    const scrollToTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth",
+        });
+    };
+
     return (
         <div className='fixed bottom-4 animate-pulse right-4'>
 
